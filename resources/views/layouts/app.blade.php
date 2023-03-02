@@ -6,7 +6,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Laravel 9 User Roles and Permissions Tutorial Example') }}</title>
+    <title>{{ config('app.name', 'Laravel User Roles and Permissions') }}</title>
 
     @vite(['resources/js/app.js'])
 
